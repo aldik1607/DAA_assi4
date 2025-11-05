@@ -38,7 +38,6 @@ public class SCCFinder {
             if (onStack[to]) low[at] = Math.min(low[at], low[to]);
         }
 
-        // Если нашли корень SCC
         if (ids[at] == low[at]) {
             List<Integer> scc = new ArrayList<>();
             while (true) {

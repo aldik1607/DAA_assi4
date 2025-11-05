@@ -7,7 +7,6 @@ import java.util.*;
 
 public class GraphLoader {
 
-    // Загрузка графа без весов
     public static Map<Integer, List<Integer>> loadGraph(String path) {
         Map<Integer, List<Integer>> graph = new HashMap<>();
         try {
